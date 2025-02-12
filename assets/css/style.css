@@ -739,6 +739,9 @@ body {
   .mobile {
     display: block;
   }
+  .cursor {
+    display: none;
+  }
   .header__contact {
     font-size: 18px;
   }
