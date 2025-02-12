@@ -1,0 +1,249 @@
+@media (max-width: 1200px) {
+    /* 1024 */
+    .header{
+        &__container{
+            padding: 20px 60px;
+        }
+    }
+    .main{
+        .intro{
+            &__title{
+                font-size: 44px;
+            }
+        }
+        .project{
+            &__item{
+                &-imgwrapper{
+                    height: 500px;
+                    &.small{height: 500px;}
+                }
+                &-text{
+                    align-items: start;
+                }
+                &-info{
+                    gap: 10px;
+                    justify-content: start;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    &.small{
+                        gap: 10px;
+                        justify-content: start;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                }
+                &-detail{
+                    display: flex;
+                    gap: 15px;
+                    &.small{
+                        display: flex;
+                        gap: 15px;
+                    }
+                }
+                &-name{
+                    font-size: 44px;
+                }
+            }
+            &__itemwrap{
+                display: block;
+                width: 100%;
+                margin: 0 auto 100px;
+            }
+            &__subItem{
+                &-title{
+                    font-size: 28px;
+                }
+            }
+        }
+        .about{
+            &__container{
+                flex-direction: column;
+                gap: 50px;
+            }
+            &__description{
+                margin-left: auto;
+            }
+        }
+    }
+    }
+
+@media (max-width: 1023px) {
+    /* 768 */
+    .header{
+        &__container{
+            padding: 20px 25px;
+        }
+    }
+    .main{
+        .intro{
+            &__title{
+                font-size: 32px;
+            }
+            &__img{
+                &.im2{
+                    top: 40%;
+                }
+                &.im3{
+                    bottom: 200px;
+                }
+            }
+        }
+        .project{
+            &__item{
+                width: 80%;
+                &-imgwrapper{
+                    height: 450px;
+                    &.small{height: 450px;}
+                }
+                &-info{
+                    gap: 5px;
+                    &.small{
+                        gap: 5px;
+                    }
+                }
+                &-detail{
+                    font-size: 14px;
+                }
+                &-name{
+                    font-size: 36px;
+                }
+            }
+            &__subItem{
+                padding: 50px 20px;
+                &-title{
+                    font-size: 24px;
+                }
+                &-info{
+                    flex-direction: column;
+                    gap: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .about{
+            &__title{
+                font-size: 55px;
+            }
+            &__description{
+                font-size: 18px;
+            }
+        }
+    }
+    .footer{
+        &__container{
+            width: 90%;
+        }
+        &__title{
+            font-size: 36px;
+        }
+        &__ico{
+            width: 36px;
+            height: 36px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    /* 320 */
+    .pc{display: none;}
+    .mobile{display: block;}
+    .header{
+        &__contact{
+            font-size: 18px;
+        }
+    }
+    .preloader{
+        .progress-bar{
+            width: 250px;
+        }
+    }
+    .main{
+        .intro{
+            overflow-x: hidden;
+            &__title{
+                font-size: 28px;
+                display: flex;
+                flex-direction: column;
+            }
+            &__img{
+                &.im1{left: -3%;}
+                &.im2{top: 30%;}
+                &.im3{bottom: 165px; right: -30px;}
+                &.im5{right: 60%;}
+            }
+        }
+        .project{
+            &__item{
+                &-imgwrapper{
+                    height: 300px;
+                    &.small{height: 300px;}
+                }
+                &-text{
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                &-name{
+                    font-size: 30px;
+                }
+                &-detail{
+                    flex-direction: column;
+                    gap: 5px;
+                    font-size: 12px;
+                    &.small{
+                        gap: 5px;
+                    }
+                }
+                &-tag{
+                    .tag{
+                        margin-right: 5px;
+                    }
+                }
+            }
+            &__subItem{
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 20px;
+                &-title{
+                    margin-bottom: 30px;
+                }
+                &-info{
+                    gap: 5px;
+                }
+            }
+        }
+        .about{
+            padding-left: 20px;
+            padding-right: 20px;
+            &__title{
+                font-size: 36px;
+            }
+            &__description{
+                font-size: 16px;
+                width: 100%;
+                margin-left: 0;
+                margin: 0 auto;
+            }
+        }
+    }
+    .footer{
+        &__container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        &__title{
+            font-size: 28px;
+        }
+        &__mail{
+            font-size: 18px;
+        }
+        &__iconwrap{
+            justify-content: center;
+        }
+        &__ico{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

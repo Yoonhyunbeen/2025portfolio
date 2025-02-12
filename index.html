@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOON HYUNBEEN</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- JS -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__container">
+            <div class="preloader__inner">
+                <p class="preloader__item pl1">building</p>
+                <p class="preloader__item pl2">meaningful</p>
+                <p class="preloader__item pl3">and</p>
+                <p class="preloader__item pl4">collaborative</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-color"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+    <header class="header" id="header"> <!-- hide -->
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html">YHB</a>
+            </div>
+            <div class="header__contact">
+                <a href="#footer">CONTACT</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="intro__container">
+                <h1 class="intro__title">
+                    <span class="web">WEB PUBLISHER</span> <span class="line"></span> <span class="accent yhb">YOON HYUNBEEN</span>
+                </h1>
+                <div class="intro__imgwrapper">
+                    <img src="./assets/images/mockup-sm-andar.png" alt="" class="intro__img im1">
+                    <img src="./assets/images/mockup-sm-changers.png" alt="" class="intro__img im2">
+                    <img src="./assets/images/mockup-sm-flashquard.png" alt="" class="intro__img im3">
+                    <img src="./assets/images/mockup-sm-younglim.png" alt="" class="intro__img im4">
+                    <img src="./assets/images/mockup-sm-josun.png" alt="" class="intro__img im5">
+                </div>
+            </div>
+        </section>
+        <section class="project">
+            <div class="project__container">
+                <div class="project__item">
+                    <div class="project__item-img">
+                        <a href="https://yoonhyunbeen.github.io/changers/" target="_blank" class="project__item-imgwrapper">
+                            <img src="./assets/images/mockup-changers.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project__item-text">
+                        <div class="project__item-info">
+                            <a href="https://yoonhyunbeen.github.io/changers/" target="_blank">
+                                <h3 class="project__item-name accent">
+                                    Changers
+                                </h3>
+                            </a>
+                            <div class="project__item-detail">
+                                <p class="project__item-contr">작업기여도 100%</p>
+                                <p class="project__item-tag">
+                                    <span class="tag">#HTML</span>
+                                    <span class="tag">#SCSS</span>
+                                    <span class="tag">#JavaScript</span>
+                                    <span class="tag">#GSAP</span>
+                                    <span class="tag">#반응형</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://velog.io/@amygoodokay/Changers-반응형-클론코딩" class="project__item-code">Code Review →</a>
+                    </div>
+                </div>
+                <div class="project__item">
+                    <div class="project__item-img">
+                        <a href="https://yoonhyunbeen.github.io/flashquard/" target="_blank" class="project__item-imgwrapper">
+                            <img src="./assets/images/mockup-flashquard.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project__item-text">
+                        <div class="project__item-info">
+                            <a href="https://yoonhyunbeen.github.io/flashquard/" target="_blank">
+                                <h3 class="project__item-name accent">
+                                    Flashquard
+                                </h3>
+                            </a>
+                            <div class="project__item-detail">
+                                <p class="project__item-contr">작업기여도 100%</p>
+                                <p class="project__item-tag">
+                                    <span class="tag">#HTML</span>
+                                    <span class="tag">#SCSS</span>
+                                    <span class="tag">#JavaScript</span>
+                                    <span class="tag">#GSAP</span>
+                                    <span class="tag">#Lottie</span>
+                                    <span class="tag">#반응형</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://velog.io/@amygoodokay/Flashquard-클론코딩" class="project__item-code">Code Review →</a>
+                    </div>
+                </div>
+                <div class="project__item">
+                    <div class="project__item-img">
+                        <a href="https://yoonhyunbeen.github.io/younglim/" target="_blank" class="project__item-imgwrapper">
+                            <img src="./assets/images/mockup-younglim.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project__item-text">
+                        <div class="project__item-info">
+                            <a href="https://yoonhyunbeen.github.io/younglim/" target="_blank">
+                                <h3 class="project__item-name accent">
+                                    Younglim
+                                </h3>
+                            </a>
+                            <div class="project__item-detail">
+                                <p class="project__item-contr">작업기여도 100%</p>
+                                <p class="project__item-tag">
+                                    <span class="tag">#HTML</span>
+                                    <span class="tag">#SCSS</span>
+                                    <span class="tag">#JavaScript</span>
+                                    <span class="tag">#GSAP</span>
+                                    <span class="tag">#Lottie</span>
+                                    <span class="tag">#반응형</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://velog.io/@amygoodokay/영림토탈인테리어-반응형-클론코딩" class="project__item-code">Code Review →</a>
+                    </div>
+                </div>
+                <div class="project__itemwrap">
+                    <div class="project__item">
+                        <div class="project__item-img">
+                            <a href="https://yoonhyunbeen.github.io/riadmammadov/" target="_blank" class="project__item-imgwrapper small">
+                                <img src="./assets/images/mockup-riad.png" alt="">
+                            </a>
+                        </div>
+                        <div class="project__item-text">
+                            <div class="project__item-info small">
+                                <a href="https://yoonhyunbeen.github.io/riadmammadov/" target="_blank">
+                                    <h3 class="project__item-name accent">
+                                        Riad Mammadov
+                                    </h3>
+                                </a>
+                                <div class="project__item-detail small">
+                                    <p class="project__item-contr">작업기여도 100%</p>
+                                    <p class="project__item-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#SCSS</span>
+                                        <span class="tag">#JavaScript</span>
+                                        <span class="tag">#GSAP</span>
+                                        <span class="tag">#PC</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="https://velog.io/@amygoodokay/Riad-Mammdov-PC-클론코딩" class="project__item-code">Code Review →</a>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-img">
+                            <a href="https://yoonhyunbeen.github.io/enterpriseblockchain/" target="_blank" class="project__item-imgwrapper small">
+                                <img src="./assets/images/mockup-enterprise.png" alt="">
+                            </a>
+                        </div>
+                        <div class="project__item-text">
+                            <div class="project__item-info small">
+                                <a href="https://yoonhyunbeen.github.io/enterpriseblockchain/" target="_blank">
+                                    <h3 class="project__item-name accent">
+                                        Enterprise Blockchain
+                                    </h3>
+                                </a>
+                                <div class="project__item-detail small">
+                                    <p class="project__item-contr">작업기여도 100%</p>
+                                    <p class="project__item-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#SCSS</span>
+                                        <span class="tag">#JavaScript</span>
+                                        <span class="tag">#GSAP</span>
+                                        <span class="tag">#PC</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="https://velog.io/@amygoodokay/엔터프라이즈블록체인-PC-클론코딩" class="project__item-code">Code Review →</a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="project__sublist">
+                    <li class="project__subItem">
+                        <a href="https://yhb7246.cafe24.com/skin-skin5" target="_blank" class="project__subItem-wrapper">
+                            <div class="project__subItem-text">
+                                <p class="project__subItem-title">
+                                    안다르 모바일
+                                </p>
+                                <div class="project__subItem-info">
+                                    <p class="project__subItem-contr">작업기여도 100%</p>
+                                    <p class="project__subItem-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#CSS</span>
+                                        <span class="tag">#JavaScript</span>
+                                        <span class="tag">#Cafe24</span>
+                                        <span class="tag">#적응형</span>
+                                        <span class="tag">#모바일</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://velog.io/@amygoodokay/cafe24를-활용한-안다르-적응형-모바일-페이지-클론코딩" class="project__subItem-code" target="_blank">
+                            Code Review →
+                        </a>
+                    </li>
+                    <li class="project__subItem">
+                        <a href="https://yoonhyunbeen.github.io/naver/" target="_blank" class="project__subItem-wrapper">
+                            <div class="project__subItem-text">
+                                <p class="project__subItem-title">
+                                    네이버
+                                </p>
+                                <div class="project__subItem-info">
+                                    <p class="project__subItem-contr">작업기여도 100%</p>
+                                    <p class="project__subItem-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#CSS</span>
+                                        <span class="tag">#PC</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://velog.io/@amygoodokay/네이버-클론코딩" class="project__subItem-code" target="_blank">
+                            Code Review →
+                        </a>
+                    </li>
+                    <li class="project__subItem">
+                        <a href="https://yoonhyunbeen.github.io/younhyunmall/" target="_blank" class="project__subItem-wrapper">
+                            <div class="project__subItem-text">
+                                <p class="project__subItem-title">
+                                    윤현몰
+                                </p>
+                                <div class="project__subItem-info">
+                                    <p class="project__subItem-contr">작업기여도 100%</p>
+                                    <p class="project__subItem-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#CSS</span>
+                                        <span class="tag">#JavaScript</span>
+                                        <span class="tag">#PC</span>
+                                        <span class="tag">#PullDownMenu</span>
+                                        <span class="tag">#ScrollTrigger</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project__subItem-pages">
+                            <a href="https://yoonhyunbeen.github.io/younhyunmall/" class="page" target="_blank">메인</a>
+                            <a href="https://yoonhyunbeen.github.io/younhyunmall/sub01.html" class="page" target="_blank">타일</a>
+                            <a href="https://yoonhyunbeen.github.io/younhyunmall/sub02.html" class="page" target="_blank">빅슬랩</a>
+                            <a href="https://yoonhyunbeen.github.io/younhyunmall/sub03_login.html" class="page" target="_blank">로그인</a>
+                        </div>
+                    </li>
+                    <li class="project__subItem">
+                        <a href="https://yoonhyunbeen.github.io/josunhotels/" target="_blank" class="project__subItem-wrapper">
+                            <div class="project__subItem-text">
+                                <p class="project__subItem-title">
+                                    조선호텔앤리조트
+                                </p>
+                                <div class="project__subItem-info">
+                                    <p class="project__subItem-contr">작업기여도 100%</p>
+                                    <p class="project__subItem-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#CSS</span>
+                                        <span class="tag">#JavaScript</span>
+                                        <span class="tag">#PC</span>
+                                        <span class="tag">#ParallaxScrolling</span>
+                                        <span class="tag">#FullMenu</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project__subItem-pages">
+                            <a href="https://yoonhyunbeen.github.io/josunhotels/" class="page" target="_blank">메인</a>
+                            <a href="https://yoonhyunbeen.github.io/josunhotels/sub02_membership.html" class="page" target="_blank">멤버십</a>
+                            <a href="https://yoonhyunbeen.github.io/josunhotels/sub03_login.html" class="page" target="_blank">로그인</a>
+                        </div>
+                    </li>
+                    <li class="project__subItem">
+                        <a href="https://yoonhyunbeen.github.io/nationalfolkmuseum/" target="_blank" class="project__subItem-wrapper">
+                            <div class="project__subItem-text">
+                                <p class="project__subItem-title">
+                                    국립민속박물관
+                                </p>
+                                <div class="project__subItem-info">
+                                    <p class="project__subItem-contr">작업기여도 100%</p>
+                                    <p class="project__subItem-tag">
+                                        <span class="tag">#HTML</span>
+                                        <span class="tag">#CSS</span>
+                                        <span class="tag">#JavaScript</span>
+                                        <span class="tag">#PC</span>
+                                        <span class="tag">#AccordionMenu</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project__subItem-pages">
+                            <a href="https://yoonhyunbeen.github.io/nationalfolkmuseum/" class="page" target="_blank">메인</a>
+                            <a href="https://yoonhyunbeen.github.io/nationalfolkmuseum/sub01_info.html" class="page" target="_blank">관람안내 &middot; 예약</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__container">
+                <p class="about__title">
+                    Constructing <span class="accent">Valuable</span> <br> with <span class="accent">Harmonious</span>
+                </p>
+                <p class="about__description">
+                    저는 탄탄한 마크업을 기반으로 효율적인 CSS와 동적인 JavaScript를 활용하여 한 줄 한 줄 의미 있는 코드를 작성하고, 이를 통해 사용자 경험을 향상시킬 수 있는 웹사이트를 만들고자 합니다.
+                    <br>
+                    <br>
+                    웹 퍼블리싱은 개인 작업이 아닌 팀 내 협력이 중요한 과정입니다. 다양한 의견을 조율하고, 동료들과의 원활한 의사소통을 통해 시너지 효과를 창출하며, 팀워크를 중시하는 웹 퍼블리셔로 성장하겠습니다.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer__container">
+            <p class="footer__title">
+                ©YOON HYUNBEEN
+            </p>
+            <div class="footer__info">
+                <a href="mailto:yhb7246@gmail.com" class="footer__mail">YHB7246@GMAIL.COM</a>
+                <div class="footer__iconwrap">
+                    <a href="https://velog.io/@amygoodokay/posts" class="footer__velog footer__ico"></a>
+                    <a href="https://github.com/Yoonhyunbeen" class="footer__github footer__ico"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            ©2025 YoonHyunbeen All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
