@@ -60,6 +60,7 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
+            pointer-events: none;
             .line{
                 position: relative;
                 display: inline-block;

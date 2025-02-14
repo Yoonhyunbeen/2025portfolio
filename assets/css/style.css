@@ -296,6 +296,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 20px;
+  pointer-events: none;
 }
 .main .intro__title .line {
   position: relative;

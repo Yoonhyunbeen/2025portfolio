@@ -85,28 +85,16 @@ function startIntro() {
 
 
 //intro 마우스 커서에 따라 움직이는 이미지
-/* const introImage = document.querySelectorAll('.intro__img');
+$('.intro').mousemove(function(e){
+    x = e.offsetX - window.innerWidth/2;
+    y = e.offsetY - window.innerHeight/2;
 
-let mouseX = 0;
-let mouseY = 0;
-let imageX = 0;
-let imageY = 0;
-const speed = 0.1;
-
-document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-
-    imageX += (mouseX - imageX) * speed;
-    imageY += (mouseY - imageY) * speed;
-
-    gsap.to(introImage, {
-        x: imageX,
-        y: imageY,
-        duration: 0.2,
-        ease: "power2.out"
-    });
-}); */
+    gsap.to('.intro__img', {
+        x: x/20,
+        y: y/20,
+        ease: 'power2.out'
+    })
+})
 
 
 //about
