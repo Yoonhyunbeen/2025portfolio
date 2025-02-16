@@ -18,6 +18,13 @@ body {
     mix-blend-mode: difference;
     z-index: 1000;
 }
+.blind {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
 .accent {
     font-family: "ffserif", serif;
 }
